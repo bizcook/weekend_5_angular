@@ -1,0 +1,54 @@
+body{
+background: url('pause.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:auto;
+  }
+
+
+p {
+color:#CEFAFF;
+letter-spacing: 2px;
+font-family: 'Oswald', sans-serif;
+
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+}
+li{
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  /*font-family: sans-serif;*/
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  /*font-family: sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  border radius: 0;
+  padding: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+  /*font-family: sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  background-color: #CEFAFF;
+  border radius: 0;
+  padding: 10px;
+  margin-top: 5px;
+}
+label{
+  /*font-family: 'Open Sans';*/
+font-family: 'Oswald', sans-serif;
+}

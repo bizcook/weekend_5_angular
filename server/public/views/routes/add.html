@@ -1,0 +1,17 @@
+<p>
+  <form ng-submit="submit(petObject)">
+    <label for="petAge">Pet's Age:</label>
+    <input ng-model="petObject.name" type="text" placeholder="name"/>
+
+    <label for="petType">Type of Pet:</label>
+    <input ng-model="petObject.type" type="text" placeholder="pet type"/>
+
+    <label for="petAge">Pet's Age:</label>
+    <input ng-model="petObject.age" type="int" placeholder="pet age" require />
+
+    <label for="petImage">Pet's closeup:</label>
+    <input ng-model="petObject.image" type="text" placeholder="image url" require />
+
+    <input  type="submit"/>
+  </form>
+</p>
